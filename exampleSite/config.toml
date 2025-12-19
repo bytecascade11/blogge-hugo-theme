@@ -46,23 +46,7 @@ theme = "blogge-hugo-theme"
     url = "/reviews/"
     weight = 8
 
-[params]
-  summarylength = 80
-  logo = "images/logo.svg"  # Upload your logo to static/images/
-  author = "Your Name"  # Change to your name
-  authorThumb = "images/author.png"
-  authorAddress = "Your City, Country"
-  authorPhone = "+1-123-456-7890"
-  instaUsername = "your_instagram"
-  facebookUsername = "your_facebook"
-  twitterUsername = "your_twitter"
-  linkedinUsername = "your_linkedin"
-  blogTitle = "My Articles"
-  blogSubTitle = "Latest in Tech, AI, and More"
-  trendingBlogIcon = "images/blog/icon.svg"
-  # Formspree for contact form
-  fabformURL  = "your-formspree-id"  # Optional
-  googleMapAPI = ""  # Leave blank if not using
+
 
 [taxonomies]
   tag = "tags"
