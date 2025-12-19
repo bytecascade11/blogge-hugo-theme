@@ -45,7 +45,13 @@ theme = "blogge-hugo-theme"
     name = "Reviews"
     url = "/reviews/"
     weight = 8
-
+[params]
+  author = ""  # Leave empty to hide author name if shown
+  description = ""  # Or a short site tagline if wanted
+  welcomeText = "ByteCascade - Tech News & Reviews"  # Custom headline instead of personal welcome
+  showAuthor = false  # If the theme supports it (common in personal themes)
+  # If there's a heroImage or profileImage param in exampleSite, set to empty
+  profileImage = ""
 
 
 [taxonomies]
