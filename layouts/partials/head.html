@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-  {{ with .Site.Params.author }}
+  <!-- Author meta tag removed to eliminate any author-related fallbacks -->
+  <!-- {{ with .Site.Params.author }}
   <meta name="author" content="{{ . }}">
-  {{ end }}
+  {{ end }} -->
+
   {{ hugo.Generator }}
 
   <link rel="stylesheet" href={{ "plugins/font-awesome/css/font-awesome.min.css" | absURL }} />
